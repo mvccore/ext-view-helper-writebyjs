@@ -1,2 +1,2 @@
 # ext-view-helper-writebyjs
-Prevent sensitive content against spam bots and convert content into JS `&amp;lt;script&amp;gt;document.write(String.fromCharCode(...));`&amp;lt;/script&amp;gt;.
+Prevent sensitive content against spam bots and convert content into JS `<script>document.write(String.fromCharCode(...));</script>`.
