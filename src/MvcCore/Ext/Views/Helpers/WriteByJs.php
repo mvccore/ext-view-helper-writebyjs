@@ -35,7 +35,7 @@ class WriteByJs
 	 * @return string
 	 */
 	public function WriteByJs ($string) {
-		$resultStringArr = array();
+		$resultStringArr = [];
 		for ($i = 0, $l = strlen($string); $i < $l; $i++) {
 			$char = mb_substr($string, $i, 1, 'UTF-8');
 			if (mb_check_encoding($char, 'UTF-8')) {
