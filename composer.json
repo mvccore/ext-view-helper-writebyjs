@@ -1,7 +1,7 @@
 {
 	"name": "mvccore/ext-view-helper-writebyjs",
 	"type": "library",
-	"description": "MvcCore Extension - View Helper - WriteByJs - prevent sensitive content against spam bots and convert content into JS `<script>document.write(String.fromCharCode(...));`</script>.",
+	"description": "MvcCore - Extension - View - Helper - WriteByJs - prevent sensitive content against spam bots and convert content into JS `<script>document.write(String.fromCharCode(...));`</script>.",
 	"keywords": [
 		"mvc", 
 		"mvccore", 
