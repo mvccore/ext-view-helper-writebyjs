@@ -1,12 +1,24 @@
-# ext-view-helper-writebyjs
+# MvcCore - Extension - View - Helper - Write By JS
+
+[![Latest Stable Version](https://img.shields.io/badge/Stable-v4.3.1-brightgreen.svg?style=plastic)](https://github.com/mvccore/ext-view-helper-writebyjs/releases)
+[![License](https://img.shields.io/badge/Licence-BSD-brightgreen.svg?style=plastic)](https://mvccore.github.io/docs/mvccore/4.0.0/LICENCE.md)
+![PHP Version](https://img.shields.io/badge/PHP->=5.3-brightgreen.svg?style=plastic)
+
 Prevent sensitive content against spam bots and convert content into JS.
 
-## Sensitive content to prevent:
+## Installation
+```shell
+composer require mvccore/ext-view-helper-writebyjs
+```
+
+## Example
+
+### Sensitive content to prevent:
 ```html
 <a href="mailto:info@example.com">info@example.com</a>
 ```
 
-## Rendered output:
+### Rendered output:
 ```html
 <script>
   document.write(String.fromCharCode(
