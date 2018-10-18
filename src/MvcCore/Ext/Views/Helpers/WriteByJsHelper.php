@@ -20,7 +20,7 @@ namespace MvcCore\Ext\Views\Helpers;
  *   index and all indexes are placed into `<script>document.write(String.fromCharCode(...));</script>`
  *   to print original html or text content by javascript to be visible for Googlebot.
  */
-class WriteByJs
+class WriteByJsHelper
 {
 	/**
 	 * MvcCore Extension - View Helper - Assets - version:
