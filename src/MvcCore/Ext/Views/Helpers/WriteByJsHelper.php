@@ -19,6 +19,7 @@ namespace MvcCore\Ext\Views\Helpers;
  * - Every character, text content or html tag, doesn't matter, is converted to `UTF-8`
  *   index and all indexes are placed into `<script>document.write(String.fromCharCode(...));</script>`
  *   to print original html or text content by javascript to be visible for Googlebot.
+ * @method \MvcCore\Ext\Views\Helpers\WriteByJsHelper GetInstance()
  */
 class WriteByJsHelper
 {
