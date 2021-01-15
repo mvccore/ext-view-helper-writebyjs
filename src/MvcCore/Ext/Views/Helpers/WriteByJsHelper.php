@@ -7,7 +7,7 @@
  * For the full copyright and license information, please view
  * the LICENSE.md file that are distributed with this source code.
  *
- * @copyright	Copyright (c) 2016 Tom Flídr (https://github.com/mvccore/mvccore)
+ * @copyright	Copyright (c) 2016 Tom Flidr (https://github.com/mvccore)
  * @license		https://mvccore.github.io/docs/mvccore/5.0.0/LICENCE.md
  */
 
@@ -21,14 +21,14 @@ namespace MvcCore\Ext\Views\Helpers;
  *   to print original html or text content by javascript to be visible for Googlebot.
  * @method \MvcCore\Ext\Views\Helpers\WriteByJsHelper GetInstance()
  */
-class WriteByJsHelper
-{
+class WriteByJsHelper {
+
 	/**
 	 * MvcCore Extension - View Helper - Assets - version:
 	 * Comparison by PHP function version_compare();
 	 * @see http://php.net/manual/en/function.version-compare.php
 	 */
-	const VERSION = '5.0.0-alpha';
+	const VERSION = '5.0.0';
 
 	/**
 	 * Any plaint text or any html content.
