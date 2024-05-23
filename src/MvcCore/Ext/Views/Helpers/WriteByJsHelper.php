@@ -19,7 +19,7 @@ namespace MvcCore\Ext\Views\Helpers;
  * - Every character, text content or html tag, doesn't matter, is converted to `UTF-8`
  *   index and all indexes are placed into `<script>document.write(String.fromCharCode(...));</script>`
  *   to print original html or text content by javascript to be visible for Googlebot.
- * @method \MvcCore\Ext\Views\Helpers\WriteByJsHelper GetInstance()
+ * @method static \MvcCore\Ext\Views\Helpers\WriteByJsHelper GetInstance()
  */
 class WriteByJsHelper {
 
@@ -28,11 +28,11 @@ class WriteByJsHelper {
 	 * Comparison by PHP function version_compare();
 	 * @see http://php.net/manual/en/function.version-compare.php
 	 */
-	const VERSION = '5.0.0';
+	const VERSION = '5.2.0';
 
 	/**
 	 * Any plaint text or any html content.
-	 * @param string $string
+	 * @param  string $string
 	 * @return string
 	 */
 	public function WriteByJs ($string) {
