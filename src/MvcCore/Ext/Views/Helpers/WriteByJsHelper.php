@@ -21,7 +21,7 @@ namespace MvcCore\Ext\Views\Helpers;
  *   to print original html or text content by javascript to be visible for Googlebot.
  * @method static \MvcCore\Ext\Views\Helpers\WriteByJsHelper GetInstance()
  */
-class WriteByJsHelper {
+class WriteByJsHelper extends \MvcCore\Ext\Views\Helpers\AbstractHelper {
 
 	/**
 	 * MvcCore Extension - View Helper - Assets - version:
